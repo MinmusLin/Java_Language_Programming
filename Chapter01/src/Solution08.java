@@ -1,9 +1,8 @@
 public class Solution08 {
     public static void main(String[] args) {
-        double pi = 3.14159265358979323846;
         double r = 5.5;
-        double l = 2 * r * pi;
-        double s = r * r * pi;
+        double l = 2 * r * Math.PI;
+        double s = Math.pow(r, 2) * Math.PI;
         System.out.println(l);
         System.out.println(s);
     }
